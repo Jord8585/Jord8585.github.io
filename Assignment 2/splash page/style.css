@@ -99,3 +99,8 @@ figure {
 figcaption {
   font-size: 0.6em;
 }
+
+figure img {
+    display: block;
+    max-width: 100%;
+}

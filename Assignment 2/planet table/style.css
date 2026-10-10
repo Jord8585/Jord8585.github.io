@@ -48,3 +48,7 @@ caption {
 .column-border {
   border: 2px solid black;
 }
+
+tbody th[scope="row"] {
+    text-align: left;
+}

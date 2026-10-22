@@ -121,6 +121,13 @@ aside {
   flex: 1;
 }
 
+/* Keep the columns from overflowing */
+
+article,
+aside {
+  min-width: 0;
+}
+
 aside a {
   display: block;
   float: left;

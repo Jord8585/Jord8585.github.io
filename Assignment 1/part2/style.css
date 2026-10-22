@@ -79,12 +79,17 @@ h1 {
   gap: 20px;
 }
 
+/* Dove logo */
+
 header img {
   height: 60px;
 }
 
+/* Navigation menu */
+
 nav ul {
-  padding: 0;
+  margin: 0;
+  padding: 10px 0;
   list-style-type: none;
   display: flex;
 }
@@ -95,6 +100,7 @@ nav li {
 }
 
 nav a {
+  display: block;
   font-size: 2rem;
   text-transform: uppercase;
   text-decoration: none;
@@ -121,7 +127,7 @@ aside {
   flex: 1;
 }
 
-/* Keep the columns from overflowing */
+/* Keep columns from overflowing */
 
 article,
 aside {

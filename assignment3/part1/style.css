@@ -19,3 +19,20 @@ body {
     background-color: #efefef;
     margin: 0 auto;
 }
+
+h1 {
+    color: hotpink;
+    font-size: 2rem;
+    font-family: Georgia, "Times New Roman", serif;
+    border-bottom: 10px dotted purple;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+.job-title {
+    color: #999999;
+    font-weight: bold;
+}

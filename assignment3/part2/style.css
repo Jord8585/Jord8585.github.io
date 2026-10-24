@@ -85,3 +85,52 @@ section {
 aside {
     line-height: 1.6;
 }
+
+/* Links */
+
+a:link,
+a:visited {
+    color: #aa6666;
+}
+
+a:hover,
+a:focus {
+    color: #773333;
+    text-decoration: none;
+}
+
+a:focus-visible {
+    outline: 2px solid #aa6666;
+    outline-offset: 2px;
+}
+
+/* External link icons */
+
+a[href^="https://"] {
+    padding-right: 17px;
+    background-image: url("external-link-52.png");
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 13px 13px;
+}
+
+/* Lists */
+
+ul,
+ol {
+    margin: 1rem 0;
+    line-height: 1.6;
+}
+
+li {
+    margin-bottom: 0.4rem;
+}
+
+section ul,
+aside ul {
+    list-style-type: square;
+}
+
+section ol {
+    list-style-type: lower-roman;
+}

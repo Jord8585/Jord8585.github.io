@@ -72,13 +72,27 @@ nav a:hover {
     background-color: #444444;
 }
 
-/* Photography */
+/* Photography gallery */
 
 .photos {
     list-style: none;
     margin: 0;
     padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
 }
+
+.photos li {
+    min-width: 0;
+}
+
+.photos img {
+    width: 100%;
+    height: auto;
+}
+
+/* Main article image */
 
 .feature {
     width: 200px;

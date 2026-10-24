@@ -134,3 +134,45 @@ aside ul {
 section ol {
     list-style-type: lower-roman;
 }
+
+/* Navigation menu */
+
+nav ul {
+    padding-left: 0;
+    margin-top: 0;
+}
+
+nav li {
+    list-style-type: none;
+    margin-bottom: 1rem;
+}
+
+nav a {
+    display: block;
+    width: 100%;
+    padding: 12px 5px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: "Bevan", Georgia, serif;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    border: 1px solid #aa6666;
+    background-color: #faf7f7;
+}
+
+nav a[aria-current="page"] {
+    border-left: 5px solid #aa6666;
+    background-color: #f2e6e6;
+}
+
+nav a:hover,
+nav a:focus {
+    color: white;
+    background-color: #aa6666;
+}
+
+nav a:active {
+    color: white;
+    background-color: black;
+}

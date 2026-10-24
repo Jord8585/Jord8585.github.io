@@ -13,10 +13,12 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>St Huxley's Community College</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Bevan&family=IBM+Plex+Serif:wght@400;700&display=swap" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
 </head>
 <body>
-    <header>
+    <header id="top">
         <h1>St Huxley's Community College</h1>
     </header>
 
@@ -65,7 +67,7 @@
             </ol>
         </section>
 
-        <aside>
+        <aside aria-label="Top course offerings">
             <h2>Top courses</h2>
 
             <ul>
@@ -83,9 +85,9 @@
             <p><a href="#">See all...</a></p>
         </aside>
 
-        <nav>
+        <nav aria-label="Main navigation">
             <ul>
-                <li><a href="#">Home</a></li>
+                <li><a href="#top" aria-current="page">Home</a></li>
                 <li><a href="#">Finding us</a></li>
                 <li><a href="#">Courses</a></li>
                 <li><a href="#">Staff</a></li>

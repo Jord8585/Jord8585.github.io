@@ -39,6 +39,7 @@ img {
     display: grid;
     grid-template-columns: 3fr 1fr;
     gap: 20px;
+    scroll-margin-top: 70px;
 }
 
 article,
@@ -51,6 +52,9 @@ aside {
 nav {
     background-color: black;
     padding: 0.5em;
+    position: sticky;
+    top: 0;
+    z-index: 10;
 }
 
 nav ul {
@@ -68,7 +72,8 @@ nav a {
     padding: 0.5em 1em;
 }
 
-nav a:hover {
+nav a:hover,
+nav a:focus {
     background-color: #444444;
 }
 
@@ -96,4 +101,6 @@ nav a:hover {
 
 .feature {
     width: 200px;
+    float: left;
+    margin: 8px 30px 20px 0;
 }
